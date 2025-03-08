@@ -1,0 +1,261 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(248, 248, 248);
+}
+
+/* NAVIGATION BAR */
+.logo {
+    margin-left: 15px;
+    vertical-align: middle;
+    margin-top: -10px;
+}
+
+.heading {
+   margin-left: 10px;
+   font-size: 32px;
+   font-weight: 600;
+   font-family: "Roboto", sans-serif;
+   color: rgb(255, 255, 255);
+}
+
+.bg-color {
+    background-color: #3f51b5;
+    color: #F8F8FF;
+}
+
+.navbar-item {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+/* Water Charge Main Section */
+
+.home {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.heading1 {
+    font-size: 33px;
+}
+
+/* Text Blinker */
+
+@keyframes blinker {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinkme {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7%;
+    display: inline;
+    text-transform: uppercase;
+    color: #ff4081;
+    padding-top: 25px;
+    padding-left: 1%;
+    border-left: 20px solid #ff4081;
+    border-bottom: 1px solid #ff4081;
+    animation: blinker 1.5s step-start 5s infinite;
+}
+.blinkme-text {
+    margin-bottom: 10px; 
+    flex-direction: row; 
+    box-sizing: border-box; 
+    display: flex;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.border-box1 {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: #e0e0e0 solid 1px;
+    border-bottom: #a7a7a7 solid 1px;
+}
+
+
+/* login Card */
+
+.login-title {
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top:-30px;
+    vertical-align:super;
+}
+.login-subtitle {
+    margin-top: -6px;
+    padding-left: 53px;
+    font-size: 14px;
+    opacity: .7;
+    vertical-align: super;
+    display: block;
+}
+
+
+input[type=text] {
+    border-bottom: 1px solid rgb(167, 166, 166);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: none;
+    outline: 0;
+    font-size: 14px;
+    width: 170px;
+    height: 30px;
+  }
+  
+  input[type=text]:focus {
+    border-bottom: 1px solid rgb(167, 166, 166);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: none;
+    outline: 0;
+    width: 170px;
+    height: 30px;
+  }
+
+  .input-align {
+    display:grid;
+  }
+  
+
+  .eg-text {
+    padding-left: 2px;
+    font-size: 13px;
+    opacity: .7;
+    margin-left: 0px;
+  }
+
+  .circle-align {
+    font-size: 14px;
+    padding: 12px;
+    vertical-align: bottom;
+
+  }
+
+  .round-icon {
+    margin-top: 30px;
+  }
+
+  .register-text {
+    padding-left: 455px;
+    font-size: 14px;
+    color: #F54081;
+    text-decoration: none;
+  }
+
+  .register-text :hover {
+    color: #F54081;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .button-style1 {
+    color: rgb(58, 58, 58);
+    padding: 5px;
+    font-weight: 600;
+  }
+
+  .button-style {
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-weight: 500;
+  }
+
+  .btn-section {
+    margin-left: 620px;
+    margin-top: 30px;
+    display: flex;
+  }
+  .btn-color1 {
+    background-color: #c9c9c9;
+  }
+  .btn-color2  {
+    background-color: #F54081;
+  }
+  
+  .text-padding {
+    padding-left: 7px;;
+  }
+
+
+  /* Second Box */
+
+
+  .border-box2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: #e0e0e0 solid 1px;
+    margin-top: -40px;
+    border-bottom: #a7a7a7 solid 1px;
+  }
+
+  .box-list {
+    margin-left: 10px;
+    line-height: 37px ;
+  }
+
+  /* Third Box - payment option */
+
+  .payment-logo {
+   margin-top: 30px;
+   margin-left: 20px;
+  }
+
+/*FOURTH BOX- OTHER PAYMENT SECTION*/
+.payment-logo1 {
+  margin-top: 5px;
+  margin-left: 0px;
+ }
+  
+.other-payment-text {
+  text-decoration: none;
+  color: black;
+}
+.other-payment-text:hover{
+  color: black;
+}
+
+
+/* FIFTH BOX- REFUND POLICY */
+
+.box-list1 {
+  margin-left: 10px;
+  line-height: 27px ;
+}
+
+
+/* footer */
+.footer {
+  background-color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 14px;
+
+}
+
+.footer-text {
+  padding-top: 20px;
+  font-size: 10px;
+}
